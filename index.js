@@ -26,7 +26,7 @@ app.configure(function(){
 });
 
 app.get("/",function(request,response){
-	response.json("DDOS attack");
+	response.json("test");
 });
 
 var PORT = process.env.PORT || 8000;
